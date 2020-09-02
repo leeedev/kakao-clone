@@ -12,6 +12,7 @@
       crossorigin="annonymous"
     ></script>
   </head>
+
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
@@ -35,12 +36,23 @@
       </p>
     </header>
 
-    <form class="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <input type="submit" value="Sign up" />
-      <a href="#">Find Kakao Account or Password</a>
+    <form action="friends.html" method="get" class="login-form">
+      <input
+        class="login-form__input"
+        name="username"
+        required
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        class="login-form__input"
+        name="password"
+        required
+        type="password"
+        placeholder="Password"
+      />
+      <input class="login-form__btn" type="submit" value="Log In" />
+      <a class="login-form__a" href="#">Find Kakao Account or Password</a>
     </form>
   </body>
 </html>
