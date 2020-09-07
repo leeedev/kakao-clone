@@ -3,11 +3,10 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login.css";
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
+@import "screens/friends.css";

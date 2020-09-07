@@ -1,0 +1,15 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+}
+
+.screen-header__titie {
+  font-size: var(--large);
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: var(--horizontal-space);
+}

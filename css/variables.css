@@ -1,6 +1,21 @@
 :root {
+  /* color */
   --yellow: #fae100;
   --brown: #3c1e1e;
   --lightblue: #abc1d1;
   --darkblue: #92a4b2;
+  --lightgray: rgb(250, 250, 250);
+  --gray: rgb(220, 220, 220);
+  --darkgray: rgb(190, 190, 190);
+  --darkergray: rgb(140, 140, 140);
+  --black: rgb(25, 25, 25);
+
+  /* font-size */
+  --xsmall: 14px;
+  --small: 18px;
+  --medium: 24px;
+  --large: 32px;
+
+  /* space */
+  --horizontal-space: 24px;
 }
