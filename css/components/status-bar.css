@@ -7,6 +7,7 @@
 
 .status-bar__column {
   width: 33%;
+  font-weight: 500;
 }
 
 .status-bar__column:first-child span {

@@ -129,13 +129,6 @@ table {
 }
 
 /* Add */
-body {
-  color: var(--black);
-  font-size: var(--small);
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
 input:focus {
   outline: none;
 }
