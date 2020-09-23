@@ -1,0 +1,31 @@
+/* header */
+.more__notification {
+  position: relative;
+}
+
+.more__notification__more {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+/* main */
+.more__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more__icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more__icons__icon i {
+  font-size: var(--font-medium);
+  margin-bottom: 16px;
+}

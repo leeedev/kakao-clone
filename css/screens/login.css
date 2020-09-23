@@ -9,12 +9,13 @@
 
 .welcome-header__title {
   margin-bottom: 20px;
-  font-size: var(--large);
+  font-size: var(--font-xlarge);
 }
 
 .welcome-header__text {
   width: 50%;
   opacity: 0.6;
+  font-size: var(--font-medium);
 }
 
 .login-form {
@@ -29,7 +30,7 @@
   border: none;
   border-bottom: 1px solid var(--darkgray);
   transition: border-color 0.3s ease-in-out;
-  font-size: var(--small);
+  font-size: var(--font-medium);
 }
 
 .login-form__input::placeholder {
@@ -46,11 +47,11 @@
   border: none;
   border-radius: 5px;
   background-color: var(--yellow);
-  font-size: var(--small);
+  font-size: var(--font-medium);
   cursor: pointer;
 }
 
 .login-form__link {
   text-align: center;
-  font-size: var(--xsmall);
+  font-size: var(--font-small);
 }

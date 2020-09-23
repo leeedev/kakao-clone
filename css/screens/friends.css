@@ -12,10 +12,11 @@
   color: var(--gray);
 }
 
+/* category */
 .friends-screen__channel {
   margin: 24px 0px 32px;
   padding-top: 16px;
-  border-top: 1px solid var(--gray);
+  border-top: var(--main-border);
 }
 
 .friends-screen__channel-header {
