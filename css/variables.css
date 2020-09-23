@@ -11,11 +11,15 @@
   --black: rgb(25, 25, 25);
 
   /* font-size */
-  --xsmall: 14px;
-  --small: 18px;
-  --medium: 24px;
-  --large: 32px;
+  --font-small: 14px;
+  --font-medium: 16px;
+  --font-large: 20px;
+  --font-xlarge: 28px;
 
   /* space */
   --horizontal-space: 24px;
+
+  /* border */
+  --main-border: 1px solid var(--gray);
+  --main-border-radius: 40%;
 }

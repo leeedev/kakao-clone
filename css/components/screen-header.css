@@ -7,7 +7,7 @@
 }
 
 .screen-header__titie {
-  font-size: var(--large);
+  font-size: var(--font-xlarge);
   font-weight: 600;
 }
 

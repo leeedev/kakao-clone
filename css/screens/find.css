@@ -1,0 +1,124 @@
+/* header */
+.find__notification {
+  position: relative;
+}
+
+.find__notification__more {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+/* main */
+.find__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find__icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find__icons__icon i {
+  font-size: var(--font-medium);
+  margin-bottom: 16px;
+}
+
+.recommend-friends {
+  margin: 24px 0px;
+  padding: 16px 0;
+  border-top: var(--main-border);
+  color: var(--darkergray);
+}
+.recommend-friends h6 {
+  margin: 80px 0;
+  text-align: center;
+}
+
+/* open chat */
+.open-chat__header {
+  margin: 24px 0px;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: var(--main-border);
+  color: var(--darkergray);
+}
+
+/* open-post */
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.open-post:last-child {
+  border-top: var(--main-border);
+  color: var(--darkergray);
+}
+
+/* open-post__column 1 */
+.open-post__title {
+  font-weight: 600;
+  color: var(--black);
+  font-size: var(--font-large);
+}
+.open-post__hashtags {
+  text-transform: uppercase;
+  color: var(--darkergray);
+  margin: 8px 0;
+}
+.open-post__menbers {
+  display: flex;
+  align-items: center;
+}
+.open-post__menbers img {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--main-border-radius);
+  margin-right: 4px;
+}
+.open-post__menbers-count {
+  color: var(--darkergray);
+}
+.open-post__menbers .divider {
+  width: 2px;
+  height: 16px;
+  background-color: var(--darkgray);
+  margin: 0 8px;
+}
+.open-post__menbers-status {
+  color: #ff3bb4;
+}
+
+/* open-post__column 2 */
+.open-post__photo {
+  position: relative; /* 부모 */
+}
+
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10%;
+}
+.open-post__heart-count {
+  position: absolute; /* 자식 */
+  bottom: 10px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 4px 8px;
+  background-color: rgba(25, 25, 25, 0.5);
+  color: white;
+  font-size: var(--font-small);
+}
+.open-post__heart-count span {
+  margin-left: 4px;
+}

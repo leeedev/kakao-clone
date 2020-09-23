@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 32px;
 }
 
 .user-component,
@@ -18,24 +19,24 @@
 .user-component__avatar {
   width: 72px;
   height: 72px;
-  border-radius: 28px;
+  border-radius: var(--main-border-radius);
   margin-right: 20px;
 }
 
 .user-component__avatar--sm {
   width: 56px;
   height: 56px;
-  border-radius: 22px;
+  border-radius: var(--main-border-radius);
 }
 
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
-  border-radius: 32px;
+  border-radius: var(--main-border-radius);
 }
 
 .user-component__title {
-  font-size: 22px;
+  font-size: var(--font-large);
   font-weight: 600;
 }
 
@@ -45,7 +46,7 @@
 
 .user-component__subtitle {
   margin-top: 8px;
-  font-size: var(--small);
+  font-size: var(--font-medium);
   color: var(--darkergray);
 }
 
