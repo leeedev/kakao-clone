@@ -25,6 +25,10 @@
   font-weight: 600;
 }
 
+.suggestions__icon-row {
+  margin-bottom: 200px;
+}
+
 .more__suggestions__icon i {
   background-color: var(--yellow);
   color: var(--white);

@@ -44,7 +44,6 @@
 .open-post:last-child {
   border-top: var(--main-border);
   color: var(--darkergray);
-  margin-bottom: 60px;
 }
 
 /* open-post__column 1 */
