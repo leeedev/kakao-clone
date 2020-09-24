@@ -14,6 +14,10 @@
 }
 
 /* main */
+.main-screen__find {
+  margin-bottom: 72px;
+}
+
 .recommend-friends {
   padding: 16px 0;
   border-top: var(--main-border);
