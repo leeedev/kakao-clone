@@ -28,7 +28,7 @@
   width: 8px;
   height: 8px;
   border-radius: 4px;
-  background-color: tomato;
+  background-color: var(--red);
   position: absolute;
   left: 32px;
   bottom: 28px;

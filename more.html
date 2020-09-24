@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends</title>
+    <title>More</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="images/kakaotalk.png" />
     <script
@@ -21,7 +21,7 @@
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column status-bar__clock">
-        <span>18:43</span>
+        <span>00:00</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -35,7 +35,10 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span class="more__notification">
+          <i class="fas fa-cog fa-lg"></i>
+          <span class="more__notification__more"></span>
+        </span>
       </div>
     </header>
 
@@ -43,19 +46,74 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="images/kakaotalk.png"
+            src="images/profile_jordy.jpg"
             class="user-component__avatar user-component__avatar--sm"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">
-              Channel
-            </h4>
+            <h4 class="user-component__title">JORDY</h4>
+            <h6 class="user-component__subtitle">
+              +0 123-456-789
+              <i class="fas fa-exclamation-circle"></i>
+            </h6>
           </div>
         </div>
-        <div class="user-component__column">
-          2
-          <i class="fas fa-chevron-right"></i>
+        <div class="user-component__column more__comment">
+          <i class="far fa-comment-alt"></i>
         </div>
+      </div>
+
+      <!-- icons -->
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar-check fa-lg"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-hdd"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-surprise"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-brush"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-credit-card"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-comments"></i>
+          <span>Openchat</span>
+        </div>
+        <div class="icon-row__icon__emptys"></div>
+        <div class="icon-row__icon__emptys"></div>
+      </div>
+
+      <!-- suggestions -->
+      <div class="more__suggestions__title">
+        <h6>Suggestions</h6>
+      </div>
+
+      <div class="icon-row">
+        <div class="icon-row__icon more__suggestions__icon">
+          <i class="fas fa-quote-right"></i>
+          <span>Kakao Story</span>
+        </div>
+        <div class="icon-row__icon more__suggestions__icon">
+          <i class="fas fa-heart"></i>
+          <span>kakao friends</span>
+        </div>
+        <div class="icon-row__icon more__suggestions__icon">
+          <i class="fas fa-gamepad"></i>
+          <span>Friends Gem</span>
+        </div>
+        <div class="icon-row__icon__empty"></div>
       </div>
     </main>
 

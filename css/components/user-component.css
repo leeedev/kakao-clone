@@ -50,6 +50,10 @@
   color: var(--darkergray);
 }
 
+.user-component__subtitle i {
+  color: var(--red);
+}
+
 .user-component__time {
   display: block;
   margin-bottom: 8px;

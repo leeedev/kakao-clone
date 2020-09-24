@@ -1,0 +1,31 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: var(--font-xlarge);
+  margin-bottom: 16px;
+}
+
+.icon-row__icon img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+.icon-row__icon__emptys {
+  width: 60px;
+}
+
+.icon-row__icon__empty {
+  width: 76px;
+}

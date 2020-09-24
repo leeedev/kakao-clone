@@ -1,9 +1,12 @@
 :root {
   /* color */
   --yellow: #fae100;
+  --pink: #ff3bb4;
+  --red: #ff6347;
   --brown: #3c1e1e;
   --lightblue: #abc1d1;
   --darkblue: #92a4b2;
+  --white: rgb(255, 255, 255);
   --lightgray: rgb(250, 250, 250);
   --gray: rgb(220, 220, 220);
   --darkgray: rgb(190, 190, 190);
@@ -14,7 +17,7 @@
   --font-small: 14px;
   --font-medium: 16px;
   --font-large: 20px;
-  --font-xlarge: 28px;
+  --font-xlarge: 32px;
 
   /* space */
   --horizontal-space: 24px;
