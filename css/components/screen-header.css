@@ -14,3 +14,7 @@
 .screen-header__icons span {
   margin-left: var(--horizontal-space);
 }
+
+.screen-header__icons i {
+  font-size: 24px;
+}
