@@ -7,31 +7,14 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: var(--red);
   position: absolute;
   top: -8px;
   right: -8px;
 }
 
 /* main */
-.find__icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.find__icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find__icons__icon i {
-  font-size: var(--font-medium);
-  margin-bottom: 16px;
-}
-
 .recommend-friends {
-  margin: 24px 0px;
   padding: 16px 0;
   border-top: var(--main-border);
   color: var(--darkergray);
@@ -61,6 +44,7 @@
 .open-post:last-child {
   border-top: var(--main-border);
   color: var(--darkergray);
+  margin-bottom: 60px;
 }
 
 /* open-post__column 1 */
@@ -94,7 +78,7 @@
   margin: 0 8px;
 }
 .open-post__menbers-status {
-  color: #ff3bb4;
+  color: var(--pink);
 }
 
 /* open-post__column 2 */
@@ -116,7 +100,7 @@
   border-radius: 20px;
   padding: 4px 8px;
   background-color: rgba(25, 25, 25, 0.5);
-  color: white;
+  color: var(--white);
   font-size: var(--font-small);
 }
 .open-post__heart-count span {

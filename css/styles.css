@@ -7,6 +7,7 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -14,6 +15,11 @@
 @import "screens/chats.css";
 @import "screens/find.css";
 @import "screens/more.css";
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+}
 
 /* Add */
 body {

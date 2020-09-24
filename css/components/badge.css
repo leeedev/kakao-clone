@@ -2,10 +2,10 @@
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: var(--red);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--white);
   font-weight: 600;
 }
