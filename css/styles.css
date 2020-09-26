@@ -8,6 +8,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -15,6 +16,7 @@
 @import "screens/chats.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
 
 /* scrollbar */
 ::-webkit-scrollbar {

@@ -1,0 +1,26 @@
+main {
+  margin-bottom: 60px;
+}
+
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(240, 240, 240);
+  font-size: var(--font-medium);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__setting__column {
+  display: flex;
+  align-items: center;
+}
+.settings__setting__column:last-child {
+  color: var(--darkergray);
+}
+
+.settings__setting i {
+  margin-right: 16px;
+  font-size: 20px;
+  color: var(--darkergray);
+}

@@ -1,0 +1,28 @@
+.alt-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: var(--horizontal-space);
+}
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+.alt-header__column:last-child {
+  margin-left: auto;
+}
+
+.alt-header__title {
+  font-weight: 600;
+  font-size: var(--font-large);
+}
+
+.alt-header__icon__find {
+  font-size: 24px;
+}
+.alt-header__icon__back {
+  font-size: 28px;
+}
+.alt-header__icon__back:hover {
+  cursor: pointer;
+}

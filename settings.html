@@ -30,32 +30,118 @@
       </div>
     </div>
 
-    <header>Settings</header>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <i
+          class="fas fa-angle-left alt-header__icon__back"
+          value="BACK"
+          onClick="history.go(-1)"
+        ></i>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search alt-header__icon__find"></i>
+      </div>
+    </header>
 
-    <main></main>
+    <main class="main-screen">
+      <li class="settings__setting">
+        <div class="settings__setting__column">
+          <i class="fas fa-bullhorn"></i>
+          <span>Notices</span>
+        </div>
+        <div class="settings__setting__column"></div>
+      </li>
+      <li class="settings__setting">
+        <div class="settings__setting__column">
+          <i class="fas fa-flask"></i>
+          <span>Kakao Lab</span>
+        </div>
+        <div class="settings__setting__column"></div>
+      </li>
+      <li class="settings__setting">
+        <div class="settings__setting__column">
+          <i class="fas fa-info-circle"></i>
+          <span>Version</span>
+        </div>
+        <div class="settings__setting__column">Latest Version</div>
+      </li>
+
+      <li class="settings__setting">
+        <div class="settings__setting__column">
+          <i class="fas fa-lock"></i>
+          <span>Privacy</span>
+        </div>
+        <div class="settings__setting__column"></div>
+      </li>
+      <li class="settings__setting">
+        <div class="settings__setting__column">
+          <i class="fas fa-bell"></i>
+          <span>Notifications</span>
+        </div>
+        <div class="settings__setting__column"></div>
+      </li>
+      <li class="settings__setting">
+        <div class="settings__setting__column">
+          <i class="fas fa-user"></i>
+          <span>Friends</span>
+        </div>
+        <div class="settings__setting__column"></div>
+      </li>
+      <li class="settings__setting">
+        <div class="settings__setting__column">
+          <i class="fas fa-comment"></i>
+          <span>Chats</span>
+        </div>
+        <div class="settings__setting__column"></div>
+      </li>
+      <li class="settings__setting">
+        <div class="settings__setting__column">
+          <i class="fas fa-sun"></i>
+          <span>Display</span>
+        </div>
+        <div class="settings__setting__column"></div>
+      </li>
+      <li class="settings__setting">
+        <div class="settings__setting__column">
+          <i class="fas fa-brush"></i>
+          <span>Themes</span>
+        </div>
+        <div class="settings__setting__column">Default theme</div>
+      </li>
+      <li class="settings__setting">
+        <div class="settings__setting__column">
+          <i class="fas fa-phone"></i>
+          <span>Call</span>
+        </div>
+        <div class="settings__setting__column"></div>
+      </li>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i>
+            ><i class="far fa-user"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i>
+            <i class="far fa-comment"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i>
+            ><i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
             <span class="nav__notification__more"></span>
-            <i class="fas fa-ellipsis-h fa-2x"></i>
+            <i class="fas fa-ellipsis-h"></i>
           </a>
         </li>
       </ul>
