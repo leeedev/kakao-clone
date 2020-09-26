@@ -11,6 +11,16 @@ main {
   align-items: center;
 }
 
+.settings__setting:nth-child(3) {
+  border-bottom: 0px solid rgb(240, 240, 240);
+}
+.settings__setting:nth-child(4) {
+  height: 1px;
+  background-color: var(--gray);
+  border-bottom: 0px solid rgb(240, 240, 240);
+  padding: 0;
+}
+
 .settings__setting__column {
   display: flex;
   align-items: center;
