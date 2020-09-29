@@ -1,8 +1,16 @@
 .screen-header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--white);
+}
+.screen-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-top: 30px;
   margin-bottom: 16px;
 }
 
