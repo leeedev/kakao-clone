@@ -19,6 +19,7 @@
 .user-component__avatar {
   width: 72px;
   height: 72px;
+  border: var(--profile--border);
   border-radius: var(--main-border-radius);
   margin-right: 20px;
 }
@@ -26,13 +27,11 @@
 .user-component__avatar--sm {
   width: 56px;
   height: 56px;
-  border-radius: var(--main-border-radius);
 }
 
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
-  border-radius: var(--main-border-radius);
 }
 
 .user-component__title {
