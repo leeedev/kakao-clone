@@ -14,7 +14,7 @@
     <script defer src="clock.js"></script>
   </head>
 
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -43,10 +43,46 @@
       </div>
       <div class="alt-header__column">
         <i class="fas fa-search alt-header__icon__find"></i>
+        <i class="fas fa-bars alt-header__icon__hamburger"></i>
       </div>
     </header>
 
-    <main class="main-screen">chat</main>
+    <main class="main-screen">
+      <div class="chat__notification__container">
+        <div class="chat__notification">
+          <div>
+            <i class="fas fa-bullhorn"></i>
+            Happy birthday!
+          </div>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+
+      <div class="chat__timestamp">Today, September 19, 2020</div>
+
+      <div class="message-row">
+        <img
+          src="images/profile_scappy.jpg"
+          class="user-component__avatar user-component__avatar--sm"
+        />
+        <div class="message-row__content">
+          <span class="message__author">SCAPPY</span>
+          <div class="message__info">
+            <span class="message__bubble"> Hello, Jordy! </span>
+            <span class="message__time">22:46</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"> Hi:) </span>
+            <span class="message__time">22:46</span>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">

@@ -1,15 +1,31 @@
 .alt-header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--white);
+  z-index: 1;
+}
+.alt-header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 16px;
+  margin: 16px 0;
   padding: var(--horizontal-space);
+}
+.alt-header__column {
+  width: 33%;
 }
 .alt-header__column:first-child {
   margin-right: auto;
 }
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .alt-header__title {
@@ -25,4 +41,8 @@
 }
 .alt-header__icon__back:hover {
   cursor: pointer;
+}
+.alt-header__icon__hamburger {
+  font-size: 24px;
+  margin-left: 16px;
 }

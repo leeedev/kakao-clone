@@ -1,0 +1,114 @@
+#chat-screen {
+  background-color: var(--lightblue);
+  height: 500px;
+}
+#chat-screen .status-bar,
+#chat-screen .alt-header,
+.chat__notification__container {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+#chat-screen .status-bar {
+  background-color: var(--blue);
+  z-index: 2;
+}
+#chat-screen .alt-header {
+  background-color: var(--blue);
+  z-index: 1;
+  top: 12px;
+}
+
+/* notification */
+.chat__notification__container {
+  top: 104px;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat__notification {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  margin: 0 var(--horizontal-space);
+  padding: 0 var(--horizontal-space);
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chat__notification .fa-chevron-down {
+  font-size: 20px;
+}
+.chat__notification .fa-bullhorn {
+  margin-right: 16px;
+}
+
+#chat-screen .main-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat__timestamp {
+  margin-top: 56px;
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  border-radius: 24px;
+  background-color: var(--darkblue);
+  color: var(--white);
+  font-size: var(--font-small);
+}
+
+/* message */
+.message-row {
+  width: 100%;
+  display: flex;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+/* message own */
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  border-radius: 16px;
+  border-top-right-radius: 0;
+  margin-right: 0px;
+  margin-left: 8px;
+}
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+
+.message-row .user-component__avatar {
+  margin-right: 12px;
+  border: none;
+}
+
+.message__author {
+  display: block;
+  margin-bottom: 8px;
+}
+.message__author,
+.message__time {
+  color: var(--darkerblue);
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__bubble {
+  font-size: var(--font-large);
+  background-color: var(--white);
+  margin-right: 8px;
+  padding: 14px;
+  border-radius: 16px;
+  border-top-left-radius: 0;
+}
