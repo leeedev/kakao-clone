@@ -112,3 +112,62 @@
   border-radius: 16px;
   border-top-left-radius: 0;
 }
+
+/* reply */
+.reply {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  padding: 4px 16px;
+  box-sizing: border-box;
+}
+.reply__column:first-child {
+  width: 8%;
+}
+.reply__column:last-child {
+  width: 92%;
+  position: relative;
+}
+
+.reply input {
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  border: var(--main-border);
+  padding-left: 12px;
+  box-sizing: border-box;
+  font-size: var(--font-medium);
+}
+.reply input::placeholder {
+  color: var(--darkgray);
+}
+.reply__column > i {
+  font-size: 24px;
+  color: var(--darkergray);
+}
+.reply__column:last-child > i,
+.reply__column button {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+.reply__column:last-child > i {
+  right: 44px;
+  top: 8px;
+}
+.reply__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+  background-color: hsl(54, 100%, 45%);
+}
