@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/kakaotalk.png" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="annonymous"
+    ></script>
+    <script defer src="clock.js"></script>
+  </head>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column status-bar__clock">
+        <span>00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-2x"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <i
+          class="fas fa-angle-left alt-header__icon__back"
+          value="BACK"
+          onClick="history.go(-1)"
+        ></i>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">SCAPPY</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search alt-header__icon__find"></i>
+        <i class="fas fa-bars alt-header__icon__hamburger"></i>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="chat__notification__container">
+        <div class="chat__notification">
+          <div>
+            <i class="fas fa-bullhorn"></i>
+            Welcome, Jordy!
+          </div>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+
+      <div class="chat__timestamp">Today, September 19, 2020</div>
+
+      <div class="message-row">
+        <img
+          src="images/kakaotalk.png"
+          class="user-component__avatar user-component__avatar--sm"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Channel</span>
+          <div class="message__info">
+            <span class="message__bubble">
+              Please check My Kakao Account Info.
+            </span>
+            <span class="message__time">22:46</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-surprise"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is to big 😱</span>
+    </div>
+
+    <div id="no-flip">
+      <span>Please flip your phone 😱</span>
+    </div>
+  </body>
+</html>
