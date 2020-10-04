@@ -46,20 +46,6 @@
   font-size: 24px;
 }
 
-@keyframes notificationAnimation {
-  0% {
-    transform: none;
-  }
-  50% {
-    transform: translateY(5px);
-  }
-  100% {
-    transform: none;
-  }
-}
-.nav__btn:nth-child(2):hover .nav__notification {
-  animation: notificationAnimation 1.5s ease-in-out infinite;
-}
 .nav__notification {
   position: absolute;
   left: 16px;
