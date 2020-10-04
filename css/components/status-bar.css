@@ -4,7 +4,7 @@
   width: 100%;
   box-sizing: border-box;
   background-color: var(--white);
-  z-index: 2;
+  z-index: 1;
 }
 .status-bar {
   display: flex;
