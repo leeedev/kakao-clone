@@ -16,6 +16,7 @@
   width: 50%;
   color: var(--darkergray);
   font-size: var(--font-medium);
+  font-weight: 400;
 }
 
 .login-form {
@@ -54,4 +55,5 @@
 .login-form__link {
   text-align: center;
   font-size: var(--font-small);
+  margin-bottom: 32px;
 }
