@@ -171,3 +171,6 @@
   outline: none;
   background-color: hsl(54, 100%, 45%);
 }
+.reply .fa-arrow-up {
+  font-size: var(--font-medium);
+}
