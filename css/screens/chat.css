@@ -71,6 +71,36 @@
   margin-bottom: 24px;
 }
 
+@keyframes fadeUpIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.message__bubble {
+  animation: fadeUpIn 0.3s linear forwards;
+  opacity: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.message__time {
+  opacity: 0;
+  animation: fadeIn 0.3s linear forwards;
+  animation-delay: 0.3s;
+}
+
 /* message own */
 .message-row--own {
   justify-content: flex-end;
@@ -141,6 +171,7 @@
   padding-left: 12px;
   box-sizing: border-box;
   font-size: var(--font-medium);
+  transition: all 0.3s ease-in-out;
 }
 .reply input::placeholder {
   color: var(--darkgray);
@@ -166,11 +197,28 @@
   height: 32px;
   border-radius: 50%;
 }
+.reply .fa-arrow-up {
+  font-size: var(--font-medium);
+}
+
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
   background-color: hsl(54, 100%, 45%);
 }
-.reply .fa-arrow-up {
-  font-size: var(--font-medium);
+
+.reply__column:first-child {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.reply:focus-within {
+  background-color: var(--lightblue);
+}
+.reply:focus-within .reply__column:first-child {
+  opacity: 0;
+  visibility: hidden;
+}
+.reply:focus-within input {
+  transform: translateX(-8%);
+  width: 108.7%;
 }
